@@ -12,7 +12,7 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_antd_6a7e33d3 from 'nuxt_plugin_antd_6a7e33d3' // Source: ../plugins/antd (mode: 'all')
+import nuxt_plugin_antd_6a7e33d3 from 'nuxt_plugin_antd_6a7e33d3' // Source: ..\\plugins\\antd (mode: 'all')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
