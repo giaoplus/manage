@@ -1,0 +1,26 @@
+{
+  "name": "manage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nuxt",
+    "start": "nuxt start",
+    "build": "nuxt build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giaoplus/manage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giaoplus/manage/issues"
+  },
+  "homepage": "https://github.com/giaoplus/manage#readme",
+  "dependencies": {
+    "ant-design-vue": "^1.6.4",
+    "nuxt": "^2.14.3"
+  }
+}

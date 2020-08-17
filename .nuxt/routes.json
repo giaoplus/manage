@@ -1,0 +1,16 @@
+[
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "/root/RemoteWorking/pages/login.vue",
+    "chunkName": "pages/login",
+    "_name": "_1ab3c9c4"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/root/RemoteWorking/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_28fe7807"
+  }
+]
