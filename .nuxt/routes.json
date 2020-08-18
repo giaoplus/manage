@@ -2,15 +2,15 @@
   {
     "name": "login",
     "path": "/login",
-    "component": "E:\\\\Code\\\\manage\\\\pages\\\\login.vue",
+    "component": "/root/RemoteWorking/pages/login.vue",
     "chunkName": "pages/login",
-    "_name": "_3e50673a"
+    "_name": "_1ab3c9c4"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "E:\\\\Code\\\\manage\\\\pages\\\\index.vue",
+    "component": "/root/RemoteWorking/pages/index.vue",
     "chunkName": "pages/index",
-    "_name": "_74a8c423"
+    "_name": "_28fe7807"
   }
 ]

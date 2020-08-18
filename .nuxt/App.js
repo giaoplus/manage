@@ -5,9 +5,9 @@ import { getMatchedComponentsInstances, getChildrenComponentInstancesUsingFetch,
 import NuxtLoading from './components/nuxt-loading.vue'
 import NuxtBuildIndicator from './components/nuxt-build-indicator'
 
-import '..\\node_modules\\ant-design-vue\\dist\\antd.css'
+import '../node_modules/ant-design-vue/dist/antd.css'
 
-import _2d26a6af from '..\\layouts\\main.vue'
+import _2d26a6af from '../layouts/main.vue'
 import _6f6c098b from './layouts/default.vue'
 
 const layouts = { "_main": sanitizeComponent(_2d26a6af),"_default": sanitizeComponent(_6f6c098b) }
