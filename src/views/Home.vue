@@ -70,17 +70,47 @@
           <v-list-item-title>用户管理</v-list-item-title>
         </v-list-item-content>
       </v-list-item>
-      <v-list-item
-        link
-        :to="{name: 'Manage'}"
+      <v-list-group
+        prepend-icon="mdi-home"
       >
-        <v-list-item-action>
-          <v-icon>mdi-home</v-icon>
-        </v-list-item-action>
-        <v-list-item-content>
-          <v-list-item-title>系统设置</v-list-item-title>
-        </v-list-item-content>
-      </v-list-item>
+        <template v-slot:activator>
+          <v-list-item-content>
+            <v-list-item-title>系统设置</v-list-item-title>
+          </v-list-item-content>
+        </template>
+        <v-list-item
+          link
+          to="manage/seting"
+        >
+          <v-list-item-content>
+            <v-list-item-title>网站设置</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+        <v-list-item
+          link
+          to="manage/categorys"
+        >
+          <v-list-item-content>
+            <v-list-item-title>内容分类</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+        <v-list-item
+          link
+          to="manage/models"
+        >
+          <v-list-item-content>
+            <v-list-item-title>内容模型</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+        <v-list-item
+          link
+          to="manage/roles"
+        >
+          <v-list-item-content>
+            <v-list-item-title>角色权限</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+      </v-list-group>
     </v-navigation-drawer>
     <v-main>
       <router-view></router-view>
