@@ -80,7 +80,7 @@
         </template>
         <v-list-item
           link
-          to="manage/seting"
+          :to="{name: 'Setting'}"
         >
           <v-list-item-content>
             <v-list-item-title>网站设置</v-list-item-title>
@@ -88,7 +88,7 @@
         </v-list-item>
         <v-list-item
           link
-          to="manage/categorys"
+          :to="{name: 'Categorys'}"
         >
           <v-list-item-content>
             <v-list-item-title>内容分类</v-list-item-title>
@@ -96,7 +96,7 @@
         </v-list-item>
         <v-list-item
           link
-          to="manage/models"
+          :to="{name: 'Models'}"
         >
           <v-list-item-content>
             <v-list-item-title>内容模型</v-list-item-title>
@@ -104,7 +104,7 @@
         </v-list-item>
         <v-list-item
           link
-          to="manage/roles"
+          :to="{name: 'Auths'}"
         >
           <v-list-item-content>
             <v-list-item-title>角色权限</v-list-item-title>

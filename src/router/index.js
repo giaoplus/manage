@@ -35,6 +35,26 @@ const routes = [
         path: 'manage',
         name: 'Manage',
         component: () => import(/* webpackChunkName: "Manage" */ '../components/Manage.vue'),
+      },
+      {
+        path: 'setting',
+        name: 'Setting',
+        component: () => import(/* webpackChunkName: "Setting" */ '../components/Setting.vue'),
+      },
+      {
+        path: 'categorys',
+        name: 'Categorys',
+        component: () => import(/* webpackChunkName: "Categorys" */ '../components/Categorys.vue'),
+      },
+      {
+        path: 'models',
+        name: 'Models',
+        component: () => import(/* webpackChunkName: "Models" */ '../components/Models.vue'),
+      },
+      {
+        path: 'auths',
+        name: 'Auths',
+        component: () => import(/* webpackChunkName: "Auths" */ '../components/Auths.vue'),
       }
     ]
   },
