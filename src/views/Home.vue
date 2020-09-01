@@ -1,14 +1,5 @@
 <template>
   <v-app id="Home">
-    <v-app-bar
-      app
-      clipped-left
-      color="blue-grey"
-      dense
-      dark
-    >
-      <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
-    </v-app-bar>
     <v-navigation-drawer
       v-model="drawer"
       app
@@ -112,9 +103,21 @@
         </v-list-item>
       </v-list-group>
     </v-navigation-drawer>
+    <v-app-bar
+      app
+      clipped-left
+      color="blue-grey"
+      dense
+      dark
+    >
+      <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
+    </v-app-bar>
     <v-main>
       <router-view></router-view>
     </v-main>
+    <v-footer app>
+      <span>&copy; {{ new Date().getFullYear() }}</span>
+    </v-footer>
   </v-app>
 </template>
 

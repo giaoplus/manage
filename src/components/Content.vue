@@ -22,17 +22,19 @@
             <template v-slot:default>
               <thead>
                 <tr>
-                  <th>title</th>
-                  <th>time</th>
-                  <th>author</th>
+                  <th><v-checkbox></v-checkbox></th>
+                  <th>标题</th>
+                  <th>发布时间</th>
+                  <th>发布者</th>
+                  <th>操作</th>
                 </tr>
               </thead>
               <tbody>
-                <tr><td>123</td><td>今天</td><td>me</td></tr>
-                <tr><td>123</td><td>今天</td><td>me</td></tr>
-                <tr><td>123</td><td>今天</td><td>me</td></tr>
-                <tr><td>123</td><td>今天</td><td>me</td></tr>
-                <tr><td>123</td><td>今天</td><td>me</td></tr>
+                <tr><td><v-checkbox></v-checkbox></td><td>123</td><td>今天</td><td>me</td><td><v-btn color="primary">编辑</v-btn><v-btn color="error">删除</v-btn></td></tr>
+                <tr><td><v-checkbox></v-checkbox></td><td>123</td><td>今天</td><td>me</td><td><v-btn color="primary">编辑</v-btn><v-btn color="error">删除</v-btn></td></tr>
+                <tr><td><v-checkbox></v-checkbox></td><td>123</td><td>今天</td><td>me</td><td><v-btn color="primary">编辑</v-btn><v-btn color="error">删除</v-btn></td></tr>
+                <tr><td><v-checkbox></v-checkbox></td><td>123</td><td>今天</td><td>me</td><td><v-btn color="primary">编辑</v-btn><v-btn color="error">删除</v-btn></td></tr>
+                <tr><td><v-checkbox></v-checkbox></td><td>123</td><td>今天</td><td>me</td><td><v-btn color="primary">编辑</v-btn><v-btn color="error">删除</v-btn></td></tr>
               </tbody>
             </template>
           </v-simple-table>
@@ -54,7 +56,8 @@ export default {
   name: 'Content',
   data() {
     return {
-      category: this.$route.params.category
+      category: this.$route.params.category,
+      page: 1
     }
   }
 }

@@ -80,6 +80,7 @@
     <v-row>
       <v-col cols="12" lg="4" md="6" sm="12">
         <v-card>
+          <v-card-title>本日排行</v-card-title>
           <v-simple-table class="table-pd">
             <template v-slot:default>
               <thead>
@@ -102,6 +103,7 @@
       </v-col>
       <v-col cols="12" lg="4" md="6" sm="12">
         <v-card>
+          <v-card-title>本周排行</v-card-title>
           <v-simple-table class="table-pd">
             <template v-slot:default>
               <thead>
@@ -124,6 +126,7 @@
       </v-col>
       <v-col cols="12" lg="4" md="6" sm="12">
         <v-card>
+          <v-card-title>本月排行</v-card-title>
           <v-simple-table class="table-pd">
             <template v-slot:default>
               <thead>
