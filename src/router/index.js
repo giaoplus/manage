@@ -4,12 +4,7 @@ import Login from '../views/Login.vue'
 
 Vue.use(VueRouter)
 
-const routes = [
-  {
-    path: '/',
-    name: 'Login',
-    component: Login
-  },
+export const dynamicRoutes = [
   {
     path: '/home',
     name: 'Home',
@@ -57,6 +52,14 @@ const routes = [
         component: () => import(/* webpackChunkName: "Auths" */ '../components/Auths.vue'),
       }
     ]
+  }
+]
+
+const routes = [
+  {
+    path: '/',
+    name: 'Login',
+    component: Login
   },
   {
     path: '/about',
